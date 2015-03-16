@@ -1,0 +1,2 @@
+setenv fdt_file digi-ccwmx53.dtb;fatload mmc 0:1 11000000 ubldr;bootelf 11000000;
+
